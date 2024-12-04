@@ -1,9 +1,10 @@
 .box{
-    width: 80vw;
+    width: 70vw;
+    height: 18vh;
    margin: 50px auto;
     border: 1px solid black;
     display: flex;
-    padding: 20px;
+    padding: 30px;
     background-color: rgb(6, 6, 55);
 }
 
