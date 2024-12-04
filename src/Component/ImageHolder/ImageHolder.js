@@ -10,8 +10,8 @@ const ImageHolder = ({ name, count, images }) => {
   return (
     <div>
       <div className="heading">
-        <h2>{name}</h2>
-        <p>Count: {count}</p>
+        {/* <h2>{name}</h2>
+        <p>Count: {count}</p> */}
       </div>
       <div className="image-grid">
         {fullImages.map((image, index) => {

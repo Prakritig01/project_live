@@ -1,9 +1,12 @@
 import React from "react";
 import ImageHolder from "./Component/ImageHolder/ImageHolder";
+import './App.css';
 
 const App = () => {
   return (
     <div className="box">
+      
+      
       <ImageHolder
         name="Gallery"
         count={4}
@@ -15,7 +18,7 @@ const App = () => {
           },
           {
             url: "https://images.unsplash.com/photo-1625215081436-85323ed5042c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fGpwZWd8ZW58MHx8MHx8fDA%3D",
-            ready: false,
+            ready: true,
             error: true,
           },
           {
@@ -26,11 +29,16 @@ const App = () => {
           {
             url: "https://images.unsplash.com/photo-1658546388188-64dd0916df87?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGpwZWd8ZW58MHx8MHx8fDA%3D",
             ready: false,
-            error: false,
+            error: true,
           },
         ]}
       />
-      <div className="explorin-text">Explorin Academy</div>
+      <div className="explorin-text">
+        <h2>Exporin Academy</h2>
+        <p>3+ offline centers</p>
+      </div>
+
+      
     </div>
 
   );
